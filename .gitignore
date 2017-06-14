@@ -1,0 +1,14 @@
+
+*.ctrl
+
+*.lck
+
+metastore_db/*
+
+*.dat
+
+*.log
+
+*.lck
+
+*.lck
