@@ -12,3 +12,9 @@ metastore_db/*
 *.lck
 
 *.lck
+
+*.iml
+
+*.xml
+
+*.pyc
