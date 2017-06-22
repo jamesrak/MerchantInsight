@@ -9,10 +9,6 @@ metastore_db/*
 
 *.log
 
-*.lck
-
-*.lck
-
 *.iml
 
 *.xml
