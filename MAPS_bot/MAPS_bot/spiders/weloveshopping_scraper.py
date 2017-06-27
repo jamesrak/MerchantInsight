@@ -15,7 +15,7 @@ class Weloveshopping_phonenum_scraper(scrapy.Spider):
 
 
    try:
-       with open('Weloveshopping_url.json') as json_data:
+       with open('/Users/AUM/Desktop/MerchantInsight/MAPS_bot/MAPS_bot/Weloveshopping_url.json') as json_data:
            loaded_urls = json.load(json_data)
    except (OSError, IOError):
        print("Get an exception!")

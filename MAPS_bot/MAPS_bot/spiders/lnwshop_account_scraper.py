@@ -14,7 +14,7 @@ class Lnwshop_account_scraper(scrapy.Spider):
    # ]
 
    try:
-       with open('quotes.json') as json_data:
+       with open('/Users/AUM/Desktop/MerchantInsight/MAPS_bot/MAPS_bot/lnwshop_url.json') as json_data:
            loaded_urls = json.load(json_data)
    except (OSError, IOError):
        print("Get an exception!")

@@ -8,7 +8,7 @@ class Tarad_scraper(scrapy.Spider):
    loaded_urls = []
 
    try:
-       with open('Tarad_url.json') as json_data:
+       with open('/Users/AUM/Desktop/MerchantInsight/MAPS_bot/MAPS_bot/Tarad_url.json') as json_data:
            loaded_urls = json.load(json_data)
    except (OSError, IOError):
        print("Get an exception!")
