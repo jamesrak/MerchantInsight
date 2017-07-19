@@ -7,7 +7,7 @@ import json
 import io
 import string
 
-token = "EAAYkvy5DUZCABAEMhsZBVkQcgpVNPmkCHYjVXfdIkCKf0HRBQ4ZCJQuomYmuOnCCJEw5Y7l5KXVInefHRLScJJm83vx5fZA1XNYA45UKLg1h2mpfCmadgYODkwF9ZB2ZBw3ERQqvRRv9zPdWt33PwfNvkAOvha5tcgnzozQ0D4ZCoGAZCNUbNxzy06Gq8av0M5sZD"
+token = "secret_token"
 
 graph = facebook.GraphAPI(access_token=token, version=2.7)
 thai_char_2 = ['ก', 'ข', 'ฃ','ค', 'ฅ', 'ฆ', 'ง', 'จ', 'ฉ', 'ช', 'ซ', 'ฌ', 'ญ' ,'ฎ' ,'ฏ' ,'ฐ',
